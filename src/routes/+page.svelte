@@ -1,5 +1,5 @@
 <script>
-	import Map from "./Map.svelte";
+	import Map from './Map.svelte';
 
 	export let data;
 	console.log('Data loaded...');
@@ -16,9 +16,9 @@
 		<p><b>Data retrieved:</b> {timestamp}</p>
 		<p><b>Taxi count:</b> {taxiCount}</p>
 	</div>
-    <div class="map">
-        <Map />
-    </div>
+	<div class="map">
+		<Map />
+	</div>
 	<a href="./about">about</a>
 </div>
 
